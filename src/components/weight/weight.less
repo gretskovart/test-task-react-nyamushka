@@ -1,0 +1,26 @@
+@import "./../variables-less/variables.less";
+
+.weight{
+  background: @default-color;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-family: @default-font-family;
+  color: #fff;
+  &__quantity{
+    font-size: 42px;
+    line-height: 22px;
+    position: relative;
+    top: 20px;
+  }
+  &__measure{
+    font-size: 22px;
+    position: absolute;
+    bottom: 6px;
+    left: 29px;
+  }
+  &--disabled{
+    background: @disabled-color;
+  }
+}
